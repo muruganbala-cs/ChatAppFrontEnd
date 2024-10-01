@@ -1,0 +1,49 @@
+.maincontainer{
+    background-color:#f4f5f8 ;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+}
+.sidebarcontainer{
+    
+    flex: 0.3;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+
+}
+.workareacontainer{
+    flex: 0.7;
+    border: 2px solid rgb(38, 0, 255);
+}
+.sb-header{
+   border-radius: 20px; 
+   padding: 10px 5px;
+   margin: 10px;
+   background-color: white;
+   display: flex;
+   justify-content:space-between ;
+
+   }
+   .sb-search{
+    border-radius: 20px; 
+   padding: 10px 10px;
+   margin: 10px;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   }
+   .searchbox{
+   outline-width: 0;
+   border: none;
+   font-size: 1.25rem;
+   margin-left: 10px;
+   }
+   .sb-conversations{
+    border-radius: 20px; 
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    flex: 1;
+}
